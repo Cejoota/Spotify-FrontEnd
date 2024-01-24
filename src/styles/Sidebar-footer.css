@@ -188,13 +188,14 @@ h1 {
 }
 
 .footer {
-    background-image: linear-gradient(to right, rgb(255, 0, 149), rgb(111, 0, 128), rgb(102, 0, 255), rgb(0, 68, 255));
-    width: 1000px;
-    padding: 30px 10px;
-    color: #b3b3b3;
-    font-weight: 700;
     position: fixed;
-    margin-top: 700px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, rgb(255, 0, 149), rgb(111, 0, 128), rgb(102, 0, 255), rgb(0, 68, 255));
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer .footer_content {
