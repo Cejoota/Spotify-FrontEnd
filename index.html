@@ -4,26 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Spotify Imersão</title>
+
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
-    <link rel="stylesheet" href="./src/styles/Sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="./src/styles/main-content.css">
-    <link rel="stylesheet" type="text/css" href="icons/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./src/icons/css/all.min.css"
+
 </head>
 
 <body>
     <div class="sidebar">
-        <nav class="sidebar-navigation">
+        <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./src/img/logo-spotify.png" alt="logo spotify">
+                    <img src="./src/img/logo-spotify.png" alt="Logo" />
                 </a>
             </div>
             <ul>
                 <li>
                     <a href="">
-                        <span><i class="fa fa-home"></i></span>
+                        <span class="fa fa-home"></span>
                         <span>Início</span>
                     </a>
                 </li>
@@ -36,20 +39,18 @@
             </ul>
         </nav>
         <div class="library">
-            <div class="library_content">
-                <button class="library_button">
+            <div class="library__content">
+                <button class="library__button">
                     <span class="fa fa-book"></span>
-                    <a href="">
-                        <span>Sua Biblioteca</span>
-                    </a>
+                    <span>Sua biblioteca</span>
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
             <section class="section-playlist">
-                <div class="section-playlist_content">
+                <div class="section-playlist__content">
                     <span class="text title">Crie sua primeira playlist</span>
-                    <span class="text subtitle">É fácil, vamos te ajudar!</span>
-                    <button class="section-playlist_button">
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
                         <span>Criar playlist</span>
                     </button>
                 </div>
@@ -58,47 +59,45 @@
                 <a href="">Cookies</a>
             </div>
             <div class="languages">
-                <button class="languages_button">
+                <button class="languages__button">
                     <span class="fa fa-globe"></span>
                     <span>Português do Brasil</span>
                 </button>
             </div>
         </div>
     </div>
-
     <main>
         <div class="main-container">
             <nav class="header__navigation">
                 <div class="navigation">
-                <button class="arrow-left">
-                    <img src="./src/img/small-left.png" alt="botao esquerdo">
-                </button>
-                <button class="arrow-right">
-                    <img src="./src/img/small-right.png" alt="botao direito">
-                </button>
-
-                <div class="header__search">
-                    <img src="./src/img/search.png" alt="lupa">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    <button class="arrow-left">
+                        <img src="./src/img/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/img/small-right.png" alt="Seta direita">
+                    </button>
                 </div>
-
+                <div class="header__search">
+                    <img src="././src/img/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
                 <div class="header__login">
                     <button class="subscribe">Inscreva-se</button>
                     <button class="login">Entrar</button>
                 </div>
-                </div>
             </nav>
         </div>
     </main>
-
-    <footer class="footer">
-        <div class="footer_content">
-            <p class="premium">TESTAR O PREMIUM DE GRAÇA</p>
-            <p class="premium_2">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
-                precisa de cartão de crédito.</p>
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
         </div>
-        <div class="botao">
-            <button type="button">Inscreva-se grátis!</button>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
 </body>
